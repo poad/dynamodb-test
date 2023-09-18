@@ -1,0 +1,21 @@
+{
+  "name": "dynamodb-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc src/index.tsx",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.414.0",
+    "@aws-sdk/util-dynamodb": "^3.414.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.4"
+  }
+}
