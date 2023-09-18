@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@aws-sdk/client-dynamodb':
     specifier: ^3.414.0
-    version: 3.414.0
+    version: 3.415.0
   '@aws-sdk/util-dynamodb':
     specifier: ^3.414.0
-    version: 3.414.0
+    version: 3.415.0(@aws-sdk/client-dynamodb@3.415.0)
 
 devDependencies:
   vitest:
@@ -68,15 +68,15 @@ packages:
       tslib: 1.14.1
     dev: false
 
-  /@aws-sdk/client-dynamodb@3.414.0:
-    resolution: {integrity: sha512-Y/dAq/SxoWkCOJzjrXQmMW/C62ICnn2jA+xOoV6KUcfqtT0Yuc5M2ewNvScFyOr6dNTlvkJQE2HwdcB9LdJtCw==}
+  /@aws-sdk/client-dynamodb@3.415.0:
+    resolution: {integrity: sha512-ID1zZurSlISjfue3lxzbcTymWzuY2wsMgVjEKhAb+KwjsmfHubY4FsKETRw9xwsNBqhfkPxV/55ypx82AFPr3Q==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
       '@aws-sdk/client-sts': 3.414.0
       '@aws-sdk/credential-provider-node': 3.414.0
-      '@aws-sdk/middleware-endpoint-discovery': 3.413.0
+      '@aws-sdk/middleware-endpoint-discovery': 3.415.0
       '@aws-sdk/middleware-host-header': 3.413.0
       '@aws-sdk/middleware-logger': 3.413.0
       '@aws-sdk/middleware-recursion-detection': 3.413.0
@@ -295,12 +295,13 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@aws-sdk/middleware-endpoint-discovery@3.413.0:
-    resolution: {integrity: sha512-guQwWLjeveLtLuoPRoX61mE00WI9VyOSiY8d2ofVWsywn92Xiq6zZG/sKhC6OzsAZXLpBY6aItVWvtQE4cr6gA==}
+  /@aws-sdk/middleware-endpoint-discovery@3.415.0:
+    resolution: {integrity: sha512-N6KXkSA7Ag0/Ld27MUKdb7TyV9nAW5M04j+eLy7IW1yQwZjkfrMt7qcaLIMtDBlkeZaPSy1AaBKwx333d4Yi4A==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-sdk/endpoint-cache': 3.310.0
       '@aws-sdk/types': 3.413.0
+      '@smithy/node-config-provider': 2.0.11
       '@smithy/protocol-http': 3.0.4
       '@smithy/types': 2.3.2
       tslib: 2.6.2
@@ -431,10 +432,13 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@aws-sdk/util-dynamodb@3.414.0:
-    resolution: {integrity: sha512-nQyjeGO8e+VZ1Ct3sO4JEuAwUYfiuZrUulB9xd96N1pjCLDEU4smurNZJ8OYZ30dXvqtfgVwvJeIUaXezUhLFA==}
+  /@aws-sdk/util-dynamodb@3.415.0(@aws-sdk/client-dynamodb@3.415.0):
+    resolution: {integrity: sha512-tdqMe8YnckJFBddV6yJFREe5bpn9YLKm1NWfKI0RpKkJZeidXuwBsON7UtcNpH2hiOzz0VA7WFD0aPXmF45GnA==}
     engines: {node: '>=14.0.0'}
+    peerDependencies:
+      '@aws-sdk/client-dynamodb': ^3.0.0
     dependencies:
+      '@aws-sdk/client-dynamodb': 3.415.0
       tslib: 2.6.2
     dev: false
 
@@ -1298,8 +1302,8 @@ packages:
       pathe: 1.1.1
     dev: true
 
-  /postcss@8.4.29:
-    resolution: {integrity: sha512-cbI+jaqIeu/VGqXEarWkRCCffhjgXc0qjBtXpqJhTBohMUjUQnbBr0xqX3vEKudc4iviTewcJo5ajcec5+wdJw==}
+  /postcss@8.4.30:
+    resolution: {integrity: sha512-7ZEao1g4kd68l97aWG/etQKPKq07us0ieSZ2TnFDk11i0ZfDW2AwKHYU8qv4MZKqN2fdBfg+7q0ES06UA73C1g==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.6
@@ -1443,7 +1447,7 @@ packages:
     dependencies:
       '@types/node': 20.6.2
       esbuild: 0.18.20
-      postcss: 8.4.29
+      postcss: 8.4.30
       rollup: 3.29.2
     optionalDependencies:
       fsevents: 2.3.3
