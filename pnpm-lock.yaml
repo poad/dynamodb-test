@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@aws-sdk/client-dynamodb':
     specifier: ^3.414.0
-    version: 3.418.0
+    version: 3.420.0
   '@aws-sdk/util-dynamodb':
     specifier: ^3.414.0
-    version: 3.418.0(@aws-sdk/client-dynamodb@3.418.0)
+    version: 3.420.0(@aws-sdk/client-dynamodb@3.420.0)
 
 devDependencies:
   typescript:
@@ -71,8 +71,8 @@ packages:
       tslib: 1.14.1
     dev: false
 
-  /@aws-sdk/client-dynamodb@3.418.0:
-    resolution: {integrity: sha512-xoxWNsUO2NfUrf4qKeoJY2wEQr50E8hQcEElIuDsX5h7EzXBdORABri+BAQC8pEBqrMg6NUW1kdXrgaAM9Algg==}
+  /@aws-sdk/client-dynamodb@3.420.0:
+    resolution: {integrity: sha512-0XkCoSezXUGIbWmgJ94JAjaXeJbtsQk8XgHcuAX9oyVClGmeJ2cZ/Ss0S9x/mz5mzNWFdgKDchurrX8cFa33CA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
@@ -435,13 +435,13 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@aws-sdk/util-dynamodb@3.418.0(@aws-sdk/client-dynamodb@3.418.0):
-    resolution: {integrity: sha512-5DI0m9ipb6yPfWm9DmXCPJrXttLeioWpHQMGbE+MmvAsNy2AmUJZ4kzmmUEE6YazseL78OtNmA7Pm4Bqs5T/lg==}
+  /@aws-sdk/util-dynamodb@3.420.0(@aws-sdk/client-dynamodb@3.420.0):
+    resolution: {integrity: sha512-eDD0HZoNUXiZIsoxDG7nimOFqijMPngZGOA1vU9v43xsQlAvpezkYk8IcXO3vuUqgW7LEhMkJcKWSpXqIfYcrg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@aws-sdk/client-dynamodb': ^3.0.0
     dependencies:
-      '@aws-sdk/client-dynamodb': 3.418.0
+      '@aws-sdk/client-dynamodb': 3.420.0
       tslib: 2.6.2
     dev: false
 
@@ -1144,7 +1144,7 @@ packages:
       assertion-error: 1.1.0
       check-error: 1.0.2
       deep-eql: 4.1.3
-      get-func-name: 2.0.1
+      get-func-name: 2.0.2
       loupe: 2.3.6
       pathval: 1.1.1
       type-detect: 4.0.8
@@ -1223,9 +1223,8 @@ packages:
     dev: true
     optional: true
 
-  /get-func-name@2.0.1:
-    resolution: {integrity: sha512-xfVG6YAjJyJl5kJDV8qJYrI4entUcpszANQteCfPhU9AYOh6Za6Hw+SsTtTrhAB0yT0nk5P9TVNqBl58pHBlYQ==}
-    engines: {node: '>= 12'}
+  /get-func-name@2.0.2:
+    resolution: {integrity: sha512-8vXOvuE167CtIc3OyItco7N/dpRtBbYOsPsXCz7X/PMnlGjYjSGuZJgM1Y7mmew7BKf9BqvLX2tnOVy1BBUsxQ==}
     dev: true
 
   /jsonc-parser@3.2.0:
@@ -1240,7 +1239,7 @@ packages:
   /loupe@2.3.6:
     resolution: {integrity: sha512-RaPMZKiMy8/JruncMU5Bt6na1eftNoo++R4Y+N2FrxkDVTrGvcyzFTsaGif4QTeKESheMGegbhw6iUAq+5A8zA==}
     dependencies:
-      get-func-name: 2.0.1
+      get-func-name: 2.0.2
     dev: true
 
   /magic-string@0.30.3:
