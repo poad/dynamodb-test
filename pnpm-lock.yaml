@@ -95,7 +95,7 @@ packages:
       '@smithy/hash-node': 2.0.11
       '@smithy/invalid-dependency': 2.0.11
       '@smithy/middleware-content-length': 2.0.13
-      '@smithy/middleware-endpoint': 2.1.1
+      '@smithy/middleware-endpoint': 2.1.2
       '@smithy/middleware-retry': 2.0.16
       '@smithy/middleware-serde': 2.0.11
       '@smithy/middleware-stack': 2.0.5
@@ -139,7 +139,7 @@ packages:
       '@smithy/hash-node': 2.0.11
       '@smithy/invalid-dependency': 2.0.11
       '@smithy/middleware-content-length': 2.0.13
-      '@smithy/middleware-endpoint': 2.1.1
+      '@smithy/middleware-endpoint': 2.1.2
       '@smithy/middleware-retry': 2.0.16
       '@smithy/middleware-serde': 2.0.11
       '@smithy/middleware-stack': 2.0.5
@@ -184,7 +184,7 @@ packages:
       '@smithy/hash-node': 2.0.11
       '@smithy/invalid-dependency': 2.0.11
       '@smithy/middleware-content-length': 2.0.13
-      '@smithy/middleware-endpoint': 2.1.1
+      '@smithy/middleware-endpoint': 2.1.2
       '@smithy/middleware-retry': 2.0.16
       '@smithy/middleware-serde': 2.0.11
       '@smithy/middleware-stack': 2.0.5
@@ -403,7 +403,7 @@ packages:
       '@smithy/hash-node': 2.0.11
       '@smithy/invalid-dependency': 2.0.11
       '@smithy/middleware-content-length': 2.0.13
-      '@smithy/middleware-endpoint': 2.1.1
+      '@smithy/middleware-endpoint': 2.1.2
       '@smithy/middleware-retry': 2.0.16
       '@smithy/middleware-serde': 2.0.11
       '@smithy/middleware-stack': 2.0.5
@@ -785,13 +785,13 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@smithy/middleware-endpoint@2.1.1:
-    resolution: {integrity: sha512-YAqGagBvHqDEew4EGz9BrQ7M+f+u7ck9EL4zzYirOhIcXeBS/+q4A5+ObHDDwEp38lD6t88YUtFy3OptqEaDQg==}
+  /@smithy/middleware-endpoint@2.1.2:
+    resolution: {integrity: sha512-dua4r2EbSTRzNefz72snz+KDuXN73RCe1K+rGeemzUyYemxuh1jujFbLQbTU6DVlTgHkhtrbH0+kdOFY/SV4Qg==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@smithy/middleware-serde': 2.0.11
-      '@smithy/node-config-provider': 2.1.1
-      '@smithy/shared-ini-file-loader': 2.2.0
+      '@smithy/node-config-provider': 2.1.2
+      '@smithy/shared-ini-file-loader': 2.2.1
       '@smithy/types': 2.3.5
       '@smithy/url-parser': 2.0.11
       '@smithy/util-middleware': 2.0.4
@@ -834,6 +834,16 @@ packages:
     dependencies:
       '@smithy/property-provider': 2.0.12
       '@smithy/shared-ini-file-loader': 2.2.0
+      '@smithy/types': 2.3.5
+      tslib: 2.6.2
+    dev: false
+
+  /@smithy/node-config-provider@2.1.2:
+    resolution: {integrity: sha512-tbYh/JK/ddxKWYTtjLgap0juyivJ0wCvywMqINb54zyOVHoKYM6iYl7DosQA0owFaNp6GAx1lXFjqGz7L2fAqA==}
+    engines: {node: '>=14.0.0'}
+    dependencies:
+      '@smithy/property-provider': 2.0.12
+      '@smithy/shared-ini-file-loader': 2.2.1
       '@smithy/types': 2.3.5
       tslib: 2.6.2
     dev: false
@@ -891,6 +901,14 @@ packages:
 
   /@smithy/shared-ini-file-loader@2.2.0:
     resolution: {integrity: sha512-xFXqs4vAb5BdkzHSRrTapFoaqS4/3m/CGZzdw46fBjYZ0paYuLAoMY60ICCn1FfGirG+PiJ3eWcqJNe4/SkfyA==}
+    engines: {node: '>=14.0.0'}
+    dependencies:
+      '@smithy/types': 2.3.5
+      tslib: 2.6.2
+    dev: false
+
+  /@smithy/shared-ini-file-loader@2.2.1:
+    resolution: {integrity: sha512-eAYajwo2eTTVU5KPX90+V6ccfrWphrzcUwOt7n9pLOMBO0fOKlRVshbvCBqfRCxEn7OYDGH6TsL3yrx+hAjddA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@smithy/types': 2.3.5
