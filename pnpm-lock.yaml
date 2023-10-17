@@ -90,7 +90,7 @@ packages:
       '@aws-sdk/util-endpoints': 3.428.0
       '@aws-sdk/util-user-agent-browser': 3.428.0
       '@aws-sdk/util-user-agent-node': 3.428.0
-      '@smithy/config-resolver': 2.0.14
+      '@smithy/config-resolver': 2.0.15
       '@smithy/fetch-http-handler': 2.2.3
       '@smithy/hash-node': 2.0.11
       '@smithy/invalid-dependency': 2.0.11
@@ -134,7 +134,7 @@ packages:
       '@aws-sdk/util-endpoints': 3.428.0
       '@aws-sdk/util-user-agent-browser': 3.428.0
       '@aws-sdk/util-user-agent-node': 3.428.0
-      '@smithy/config-resolver': 2.0.14
+      '@smithy/config-resolver': 2.0.15
       '@smithy/fetch-http-handler': 2.2.3
       '@smithy/hash-node': 2.0.11
       '@smithy/invalid-dependency': 2.0.11
@@ -179,7 +179,7 @@ packages:
       '@aws-sdk/util-endpoints': 3.428.0
       '@aws-sdk/util-user-agent-browser': 3.428.0
       '@aws-sdk/util-user-agent-node': 3.428.0
-      '@smithy/config-resolver': 2.0.14
+      '@smithy/config-resolver': 2.0.15
       '@smithy/fetch-http-handler': 2.2.3
       '@smithy/hash-node': 2.0.11
       '@smithy/invalid-dependency': 2.0.11
@@ -398,7 +398,7 @@ packages:
       '@aws-sdk/util-endpoints': 3.428.0
       '@aws-sdk/util-user-agent-browser': 3.428.0
       '@aws-sdk/util-user-agent-node': 3.428.0
-      '@smithy/config-resolver': 2.0.14
+      '@smithy/config-resolver': 2.0.15
       '@smithy/fetch-http-handler': 2.2.3
       '@smithy/hash-node': 2.0.11
       '@smithy/invalid-dependency': 2.0.11
@@ -711,11 +711,11 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@smithy/config-resolver@2.0.14:
-    resolution: {integrity: sha512-K1K+FuWQoy8j/G7lAmK85o03O89s2Vvh6kMFmzEmiHUoQCRH1rzbDtMnGNiaMHeSeYJ6y79IyTusdRG+LuWwtg==}
+  /@smithy/config-resolver@2.0.15:
+    resolution: {integrity: sha512-a2Pfocla5nSrG2RyB8i20jcWgMyR71TUeFKm8pmrnZotr/X22tlg4y/EhSvBK2oTE8MKHlKh4YdpDO2AryJbGQ==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@smithy/node-config-provider': 2.1.1
+      '@smithy/node-config-provider': 2.1.2
       '@smithy/types': 2.3.5
       '@smithy/util-config-provider': 2.0.0
       '@smithy/util-middleware': 2.0.4
@@ -838,6 +838,16 @@ packages:
       tslib: 2.6.2
     dev: false
 
+  /@smithy/node-config-provider@2.1.2:
+    resolution: {integrity: sha512-tbYh/JK/ddxKWYTtjLgap0juyivJ0wCvywMqINb54zyOVHoKYM6iYl7DosQA0owFaNp6GAx1lXFjqGz7L2fAqA==}
+    engines: {node: '>=14.0.0'}
+    dependencies:
+      '@smithy/property-provider': 2.0.12
+      '@smithy/shared-ini-file-loader': 2.2.1
+      '@smithy/types': 2.3.5
+      tslib: 2.6.2
+    dev: false
+
   /@smithy/node-http-handler@2.1.7:
     resolution: {integrity: sha512-PQIKZXlp3awCDn/xNlCSTFE7aYG/5Tx33M05NfQmWYeB5yV1GZZOSz4dXpwiNJYTXb9jPqjl+ueXXkwtEluFFA==}
     engines: {node: '>=14.0.0'}
@@ -891,6 +901,14 @@ packages:
 
   /@smithy/shared-ini-file-loader@2.2.0:
     resolution: {integrity: sha512-xFXqs4vAb5BdkzHSRrTapFoaqS4/3m/CGZzdw46fBjYZ0paYuLAoMY60ICCn1FfGirG+PiJ3eWcqJNe4/SkfyA==}
+    engines: {node: '>=14.0.0'}
+    dependencies:
+      '@smithy/types': 2.3.5
+      tslib: 2.6.2
+    dev: false
+
+  /@smithy/shared-ini-file-loader@2.2.1:
+    resolution: {integrity: sha512-eAYajwo2eTTVU5KPX90+V6ccfrWphrzcUwOt7n9pLOMBO0fOKlRVshbvCBqfRCxEn7OYDGH6TsL3yrx+hAjddA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@smithy/types': 2.3.5
@@ -987,7 +1005,7 @@ packages:
     resolution: {integrity: sha512-7pScU4jBFADB2MBYKM3zb5onMh6Nn0X3IfaFVLYPyCarTIZDLUtUl1GtruzEUJPmDzP+uGeqOtU589HDY0Ni6g==}
     engines: {node: '>= 10.0.0'}
     dependencies:
-      '@smithy/config-resolver': 2.0.14
+      '@smithy/config-resolver': 2.0.15
       '@smithy/credential-provider-imds': 2.0.16
       '@smithy/node-config-provider': 2.1.1
       '@smithy/property-provider': 2.0.12
