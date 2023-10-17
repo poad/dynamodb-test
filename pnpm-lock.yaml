@@ -10,7 +10,7 @@ dependencies:
     version: 3.428.0
   '@aws-sdk/util-dynamodb':
     specifier: ^3.414.0
-    version: 3.428.0(@aws-sdk/client-dynamodb@3.428.0)
+    version: 3.429.0(@aws-sdk/client-dynamodb@3.428.0)
 
 devDependencies:
   typescript:
@@ -435,8 +435,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@aws-sdk/util-dynamodb@3.428.0(@aws-sdk/client-dynamodb@3.428.0):
-    resolution: {integrity: sha512-zW7Ml4qDx/bskJ6kWmdcavfnvZXg4i+ZBvHeXlHBZMn7B0wVAowuGeL3Rvr8Ee68R1D7PP+lSFluKGDPYGLgYA==}
+  /@aws-sdk/util-dynamodb@3.429.0(@aws-sdk/client-dynamodb@3.428.0):
+    resolution: {integrity: sha512-0dQ794kstMvBfsWYaEQVCcMhh6ZG868FbNfaK8/mSwqjHnKMu1jCNWD/KuHD+CdHus7nPox7GkBRog2rptmN8A==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@aws-sdk/client-dynamodb': ^3.0.0
