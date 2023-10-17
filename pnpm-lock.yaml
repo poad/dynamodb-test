@@ -109,7 +109,7 @@ packages:
       '@smithy/util-body-length-browser': 2.0.0
       '@smithy/util-body-length-node': 2.1.0
       '@smithy/util-defaults-mode-browser': 2.0.15
-      '@smithy/util-defaults-mode-node': 2.0.19
+      '@smithy/util-defaults-mode-node': 2.0.20
       '@smithy/util-retry': 2.0.4
       '@smithy/util-utf8': 2.0.0
       '@smithy/util-waiter': 2.0.11
@@ -153,7 +153,7 @@ packages:
       '@smithy/util-body-length-browser': 2.0.0
       '@smithy/util-body-length-node': 2.1.0
       '@smithy/util-defaults-mode-browser': 2.0.15
-      '@smithy/util-defaults-mode-node': 2.0.19
+      '@smithy/util-defaults-mode-node': 2.0.20
       '@smithy/util-retry': 2.0.4
       '@smithy/util-utf8': 2.0.0
       tslib: 2.6.2
@@ -198,7 +198,7 @@ packages:
       '@smithy/util-body-length-browser': 2.0.0
       '@smithy/util-body-length-node': 2.1.0
       '@smithy/util-defaults-mode-browser': 2.0.15
-      '@smithy/util-defaults-mode-node': 2.0.19
+      '@smithy/util-defaults-mode-node': 2.0.20
       '@smithy/util-retry': 2.0.4
       '@smithy/util-utf8': 2.0.0
       fast-xml-parser: 4.2.5
@@ -419,7 +419,7 @@ packages:
       '@smithy/util-body-length-browser': 2.0.0
       '@smithy/util-body-length-node': 2.1.0
       '@smithy/util-defaults-mode-browser': 2.0.15
-      '@smithy/util-defaults-mode-node': 2.0.19
+      '@smithy/util-defaults-mode-node': 2.0.20
       '@smithy/util-retry': 2.0.4
       '@smithy/util-utf8': 2.0.0
       tslib: 2.6.2
@@ -722,11 +722,33 @@ packages:
       tslib: 2.6.2
     dev: false
 
+  /@smithy/config-resolver@2.0.15:
+    resolution: {integrity: sha512-a2Pfocla5nSrG2RyB8i20jcWgMyR71TUeFKm8pmrnZotr/X22tlg4y/EhSvBK2oTE8MKHlKh4YdpDO2AryJbGQ==}
+    engines: {node: '>=14.0.0'}
+    dependencies:
+      '@smithy/node-config-provider': 2.1.2
+      '@smithy/types': 2.3.5
+      '@smithy/util-config-provider': 2.0.0
+      '@smithy/util-middleware': 2.0.4
+      tslib: 2.6.2
+    dev: false
+
   /@smithy/credential-provider-imds@2.0.16:
     resolution: {integrity: sha512-tKa2xF+69TvGxJT+lnJpGrKxUuAZDLYXFhqnPEgnHz+psTpkpcB4QRjHj63+uj83KaeFJdTfW201eLZeRn6FfA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@smithy/node-config-provider': 2.1.1
+      '@smithy/property-provider': 2.0.12
+      '@smithy/types': 2.3.5
+      '@smithy/url-parser': 2.0.11
+      tslib: 2.6.2
+    dev: false
+
+  /@smithy/credential-provider-imds@2.0.17:
+    resolution: {integrity: sha512-2XcD414yrwbxxuYueTo7tzLC2/w3jj9FZqfenpv3MQkocdOEmuOVS0v9WHsY/nW6V+2EcR340rj/z5HnvsHncQ==}
+    engines: {node: '>=14.0.0'}
+    dependencies:
+      '@smithy/node-config-provider': 2.1.2
       '@smithy/property-provider': 2.0.12
       '@smithy/types': 2.3.5
       '@smithy/url-parser': 2.0.11
@@ -838,6 +860,16 @@ packages:
       tslib: 2.6.2
     dev: false
 
+  /@smithy/node-config-provider@2.1.2:
+    resolution: {integrity: sha512-tbYh/JK/ddxKWYTtjLgap0juyivJ0wCvywMqINb54zyOVHoKYM6iYl7DosQA0owFaNp6GAx1lXFjqGz7L2fAqA==}
+    engines: {node: '>=14.0.0'}
+    dependencies:
+      '@smithy/property-provider': 2.0.12
+      '@smithy/shared-ini-file-loader': 2.2.1
+      '@smithy/types': 2.3.5
+      tslib: 2.6.2
+    dev: false
+
   /@smithy/node-http-handler@2.1.7:
     resolution: {integrity: sha512-PQIKZXlp3awCDn/xNlCSTFE7aYG/5Tx33M05NfQmWYeB5yV1GZZOSz4dXpwiNJYTXb9jPqjl+ueXXkwtEluFFA==}
     engines: {node: '>=14.0.0'}
@@ -891,6 +923,14 @@ packages:
 
   /@smithy/shared-ini-file-loader@2.2.0:
     resolution: {integrity: sha512-xFXqs4vAb5BdkzHSRrTapFoaqS4/3m/CGZzdw46fBjYZ0paYuLAoMY60ICCn1FfGirG+PiJ3eWcqJNe4/SkfyA==}
+    engines: {node: '>=14.0.0'}
+    dependencies:
+      '@smithy/types': 2.3.5
+      tslib: 2.6.2
+    dev: false
+
+  /@smithy/shared-ini-file-loader@2.2.1:
+    resolution: {integrity: sha512-eAYajwo2eTTVU5KPX90+V6ccfrWphrzcUwOt7n9pLOMBO0fOKlRVshbvCBqfRCxEn7OYDGH6TsL3yrx+hAjddA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@smithy/types': 2.3.5
@@ -983,13 +1023,13 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@smithy/util-defaults-mode-node@2.0.19:
-    resolution: {integrity: sha512-7pScU4jBFADB2MBYKM3zb5onMh6Nn0X3IfaFVLYPyCarTIZDLUtUl1GtruzEUJPmDzP+uGeqOtU589HDY0Ni6g==}
+  /@smithy/util-defaults-mode-node@2.0.20:
+    resolution: {integrity: sha512-kJjcZ/Lzvs3sPDKBwlhZsFFcgPNIpB3CMb6/saCakawRzo0E+JkyS3ZZRjVR3ce29yHtwoP/0YLKC1PeH0Dffg==}
     engines: {node: '>= 10.0.0'}
     dependencies:
-      '@smithy/config-resolver': 2.0.14
-      '@smithy/credential-provider-imds': 2.0.16
-      '@smithy/node-config-provider': 2.1.1
+      '@smithy/config-resolver': 2.0.15
+      '@smithy/credential-provider-imds': 2.0.17
+      '@smithy/node-config-provider': 2.1.2
       '@smithy/property-provider': 2.0.12
       '@smithy/smithy-client': 2.1.11
       '@smithy/types': 2.3.5
