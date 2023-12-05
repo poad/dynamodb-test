@@ -13,12 +13,15 @@ dependencies:
     version: 3.465.0(@aws-sdk/client-dynamodb@3.465.0)
 
 devDependencies:
+  '@types/node':
+    specifier: ^20.10.3
+    version: 20.10.3
   typescript:
     specifier: ^5.3.2
     version: 5.3.2
   vitest:
     specifier: ^1.0.1
-    version: 1.0.1
+    version: 1.0.1(@types/node@20.10.3)
 
 packages:
 
@@ -1180,6 +1183,12 @@ packages:
       tslib: 2.6.2
     dev: false
 
+  /@types/node@20.10.3:
+    resolution: {integrity: sha512-XJavIpZqiXID5Yxnxv3RUDKTN5b81ddNC3ecsA0SoFXz/QU8OGBwZGMomiq0zw+uuqbL/krztv/DINAQ/EV4gg==}
+    dependencies:
+      undici-types: 5.26.5
+    dev: true
+
   /@vitest/expect@1.0.1:
     resolution: {integrity: sha512-3cdrb/eKD/0tygDX75YscuHEHMUJ70u3UoLSq2eqhWks57AyzvsDQbyn53IhZ0tBN7gA8Jj2VhXiOV2lef7thw==}
     dependencies:
@@ -1629,7 +1638,7 @@ packages:
     hasBin: true
     dev: false
 
-  /vite-node@1.0.1:
+  /vite-node@1.0.1(@types/node@20.10.3):
     resolution: {integrity: sha512-Y2Jnz4cr2azsOMMYuVPrQkp3KMnS/0WV8ezZjCy4hU7O5mUHCAVOnFmoEvs1nvix/4mYm74Len8bYRWZJMNP6g==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -1685,7 +1694,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@1.0.1:
+  /vitest@1.0.1(@types/node@20.10.3):
     resolution: {integrity: sha512-MHsOj079S28hDsvdDvyD1pRj4dcS51EC5Vbe0xvOYX+WryP8soiK2dm8oULi+oA/8Xa/h6GoJEMTmcmBy5YM+Q==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -1710,6 +1719,7 @@ packages:
       jsdom:
         optional: true
     dependencies:
+      '@types/node': 20.10.3
       '@vitest/expect': 1.0.1
       '@vitest/runner': 1.0.1
       '@vitest/snapshot': 1.0.1
@@ -1728,8 +1738,8 @@ packages:
       strip-literal: 1.3.0
       tinybench: 2.5.1
       tinypool: 0.8.1
-      vite: 5.0.5
-      vite-node: 1.0.1
+      vite: 5.0.5(@types/node@20.10.3)
+      vite-node: 1.0.1(@types/node@20.10.3)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
