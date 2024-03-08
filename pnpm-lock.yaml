@@ -6,10 +6,10 @@ settings:
 
 dependencies:
   '@aws-sdk/client-dynamodb':
-    specifier: ^3.528.0
+    specifier: ^3.529.1
     version: 3.529.1
   '@aws-sdk/util-dynamodb':
-    specifier: ^3.528.0
+    specifier: ^3.529.1
     version: 3.529.1(@aws-sdk/client-dynamodb@3.529.1)
 
 devDependencies:
