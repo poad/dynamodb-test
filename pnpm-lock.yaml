@@ -20,7 +20,7 @@ importers:
         version: 20.14.9
       typescript:
         specifier: ^5.5.2
-        version: 5.5.2
+        version: 5.5.3
       vitest:
         specifier: ^1.6.0
         version: 1.6.0(@types/node@20.14.9)
@@ -734,8 +734,8 @@ packages:
   picocolors@1.0.1:
     resolution: {integrity: sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==}
 
-  pkg-types@1.1.1:
-    resolution: {integrity: sha512-ko14TjmDuQJ14zsotODv7dBlwxKhUKQEhuhmbqo1uCi9BB0Z2alo/wAXg6q1dTR5TyuqYyWhjtfe/Tsh+X28jQ==}
+  pkg-types@1.1.2:
+    resolution: {integrity: sha512-VEGf1he2DR5yowYRl0XJhWJq5ktm9gYIsH+y8sNJpHlxch7JPDaufgrsl4vYjd9hMUY8QVjoNncKbow9I7exyA==}
 
   postcss@8.4.39:
     resolution: {integrity: sha512-0vzE+lAiG7hZl1/9I8yzKLx3aR9Xbof3fBHKunvMfOCYAtMhrsnccJY2iTURb9EZd5+pLuiNV9/c/GZJOHsgIw==}
@@ -806,8 +806,8 @@ packages:
     resolution: {integrity: sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==}
     engines: {node: '>=4'}
 
-  typescript@5.5.2:
-    resolution: {integrity: sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew==}
+  typescript@5.5.3:
+    resolution: {integrity: sha512-/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -1833,7 +1833,7 @@ snapshots:
   local-pkg@0.5.0:
     dependencies:
       mlly: 1.7.1
-      pkg-types: 1.1.1
+      pkg-types: 1.1.2
 
   loupe@2.3.7:
     dependencies:
@@ -1851,7 +1851,7 @@ snapshots:
     dependencies:
       acorn: 8.12.0
       pathe: 1.1.2
-      pkg-types: 1.1.1
+      pkg-types: 1.1.2
       ufo: 1.5.3
 
   mnemonist@0.38.3:
@@ -1886,7 +1886,7 @@ snapshots:
 
   picocolors@1.0.1: {}
 
-  pkg-types@1.1.1:
+  pkg-types@1.1.2:
     dependencies:
       confbox: 0.1.7
       mlly: 1.7.1
@@ -1962,7 +1962,7 @@ snapshots:
 
   type-detect@4.0.8: {}
 
-  typescript@5.5.2: {}
+  typescript@5.5.3: {}
 
   ufo@1.5.3: {}
 
