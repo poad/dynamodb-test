@@ -16,13 +16,13 @@ importers:
         version: 3.614.0(@aws-sdk/client-dynamodb@3.614.0)
     devDependencies:
       '@types/node':
-        specifier: ^20.14.10
+        specifier: ^20.14.11
         version: 20.14.11
       typescript:
         specifier: ^5.5.3
         version: 5.5.3
       vitest:
-        specifier: ^2.0.2
+        specifier: ^2.0.3
         version: 2.0.3(@types/node@20.14.11)
 
 packages:
