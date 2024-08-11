@@ -15,7 +15,7 @@
     "@aws-sdk/util-dynamodb": "^3.624.0"
   },
   "devDependencies": {
-    "@types/node": "^22.1.0",
+    "@types/node": "^22.2.0",
     "typescript": "^5.5.4",
     "vitest": "^2.0.5"
   },
