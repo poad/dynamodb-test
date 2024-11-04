@@ -12,18 +12,18 @@ importers:
         specifier: ^3.682.0
         version: 3.682.0
       '@aws-sdk/util-dynamodb':
-        specifier: ^3.682.0
-        version: 3.682.0(@aws-sdk/client-dynamodb@3.682.0)
+        specifier: ^3.685.0
+        version: 3.685.0(@aws-sdk/client-dynamodb@3.682.0)
     devDependencies:
       '@types/node':
-        specifier: ^22.8.6
-        version: 22.8.6
+        specifier: ^22.8.7
+        version: 22.8.7
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
       vitest:
         specifier: ^2.1.4
-        version: 2.1.4(@types/node@22.8.6)
+        version: 2.1.4(@types/node@22.8.7)
 
 packages:
 
@@ -132,8 +132,8 @@ packages:
     resolution: {integrity: sha512-NwVq8YvInxQdJ47+zz4fH3BRRLC6lL+WLkvr242PVBbUOLRyK/lkwHlfiKUoeVIMyK5NF+up6TRg71t/8Bny6Q==}
     engines: {node: '>=16.0.0'}
 
-  '@aws-sdk/util-dynamodb@3.682.0':
-    resolution: {integrity: sha512-adG2DgR3QszwmlvqKSHMOqGlGXOFcrdjAeH9alfydqOEzIAjLSu/14w2SnPGC5SeIAJpr/ApUTjJTJT5el91/Q==}
+  '@aws-sdk/util-dynamodb@3.685.0':
+    resolution: {integrity: sha512-bUTxoTaBwvJvLGqrdaSi9tZpLAf7hIVkX6bWcw9EPEbdjubDLUbcyBz3NCxKRODBck/zUSIiM/ShqrXLiursPA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@aws-sdk/client-dynamodb': ^3.682.0
@@ -563,8 +563,8 @@ packages:
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
 
-  '@types/node@22.8.6':
-    resolution: {integrity: sha512-tosuJYKrIqjQIlVCM4PEGxOmyg3FCPa/fViuJChnGeEIhjA46oy8FMVoF9su1/v8PNs2a8Q0iFNyOx0uOF91nw==}
+  '@types/node@22.8.7':
+    resolution: {integrity: sha512-LidcG+2UeYIWcMuMUpBKOnryBWG/rnmOHQR5apjn8myTQcx3rinFRn7DcIFhMnS0PPFSC6OafdIKEad0lj6U0Q==}
 
   '@types/uuid@9.0.8':
     resolution: {integrity: sha512-jg+97EGIcY9AGHJJRaaPVgetKDsrTgbRjQ5Msgjh/DQKEFl0DtyRr/VCOyD1T2R1MNeWPK/u7JoGhlDZnKBAfA==}
@@ -1188,7 +1188,7 @@ snapshots:
       '@smithy/types': 3.6.0
       tslib: 2.8.1
 
-  '@aws-sdk/util-dynamodb@3.682.0(@aws-sdk/client-dynamodb@3.682.0)':
+  '@aws-sdk/util-dynamodb@3.685.0(@aws-sdk/client-dynamodb@3.682.0)':
     dependencies:
       '@aws-sdk/client-dynamodb': 3.682.0
       tslib: 2.8.1
@@ -1627,7 +1627,7 @@ snapshots:
 
   '@types/estree@1.0.6': {}
 
-  '@types/node@22.8.6':
+  '@types/node@22.8.7':
     dependencies:
       undici-types: 6.19.8
 
@@ -1640,13 +1640,13 @@ snapshots:
       chai: 5.1.2
       tinyrainbow: 1.2.0
 
-  '@vitest/mocker@2.1.4(vite@5.4.10(@types/node@22.8.6))':
+  '@vitest/mocker@2.1.4(vite@5.4.10(@types/node@22.8.7))':
     dependencies:
       '@vitest/spy': 2.1.4
       estree-walker: 3.0.3
       magic-string: 0.30.12
     optionalDependencies:
-      vite: 5.4.10(@types/node@22.8.6)
+      vite: 5.4.10(@types/node@22.8.7)
 
   '@vitest/pretty-format@2.1.4':
     dependencies:
@@ -1814,12 +1814,12 @@ snapshots:
 
   uuid@9.0.1: {}
 
-  vite-node@2.1.4(@types/node@22.8.6):
+  vite-node@2.1.4(@types/node@22.8.7):
     dependencies:
       cac: 6.7.14
       debug: 4.3.7
       pathe: 1.1.2
-      vite: 5.4.10(@types/node@22.8.6)
+      vite: 5.4.10(@types/node@22.8.7)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -1831,19 +1831,19 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.4.10(@types/node@22.8.6):
+  vite@5.4.10(@types/node@22.8.7):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.47
       rollup: 4.24.3
     optionalDependencies:
-      '@types/node': 22.8.6
+      '@types/node': 22.8.7
       fsevents: 2.3.3
 
-  vitest@2.1.4(@types/node@22.8.6):
+  vitest@2.1.4(@types/node@22.8.7):
     dependencies:
       '@vitest/expect': 2.1.4
-      '@vitest/mocker': 2.1.4(vite@5.4.10(@types/node@22.8.6))
+      '@vitest/mocker': 2.1.4(vite@5.4.10(@types/node@22.8.7))
       '@vitest/pretty-format': 2.1.4
       '@vitest/runner': 2.1.4
       '@vitest/snapshot': 2.1.4
@@ -1859,11 +1859,11 @@ snapshots:
       tinyexec: 0.3.1
       tinypool: 1.0.1
       tinyrainbow: 1.2.0
-      vite: 5.4.10(@types/node@22.8.6)
-      vite-node: 2.1.4(@types/node@22.8.6)
+      vite: 5.4.10(@types/node@22.8.7)
+      vite-node: 2.1.4(@types/node@22.8.7)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 22.8.6
+      '@types/node': 22.8.7
     transitivePeerDependencies:
       - less
       - lightningcss
