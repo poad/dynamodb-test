@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@aws-sdk/client-dynamodb':
         specifier: ^3.699.0
-        version: 3.699.0
+        version: 3.705.0
       '@aws-sdk/util-dynamodb':
         specifier: ^3.699.0
-        version: 3.704.0(@aws-sdk/client-dynamodb@3.699.0)
+        version: 3.705.0(@aws-sdk/client-dynamodb@3.705.0)
     devDependencies:
       '@types/node':
         specifier: ^22.10.1
@@ -40,8 +40,8 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-sdk/client-dynamodb@3.699.0':
-    resolution: {integrity: sha512-npf2ZPUbFyyeWb0Fmgs/hGdjeecyUyldVU6okwM9DaaeOtlUmXA9e1vtrplgRJs3DLJdDJCGSTrBI+4w0MtgGg==}
+  '@aws-sdk/client-dynamodb@3.705.0':
+    resolution: {integrity: sha512-uHmjzK4/r6KiXSMofSRmLdGb0N+X42yoTZN9YrQK2PxPMdLjh7JCGv4thlLcZP1NBHPfFxsEh61kqf8+1SfzgQ==}
     engines: {node: '>=16.0.0'}
 
   '@aws-sdk/client-sso-oidc@3.699.0':
@@ -132,11 +132,11 @@ packages:
     resolution: {integrity: sha512-9rTvUJIAj5d3//U5FDPWGJ1nFJLuWb30vugGOrWk7aNZ6y9tuA3PI7Cc9dP8WEXKVyK1vuuk8rSFP2iqXnlgrw==}
     engines: {node: '>=16.0.0'}
 
-  '@aws-sdk/util-dynamodb@3.704.0':
-    resolution: {integrity: sha512-AynXGhZP7KdmHtOvVfClZBVs/3R+rnrr53vm2PWjcMndjaKw8bv7DVRROIp7tXHdu/q4G0WPRi8L2RFKnGOBow==}
+  '@aws-sdk/util-dynamodb@3.705.0':
+    resolution: {integrity: sha512-cETrLaH8HGnHy2ohse02OR1/ux6IeT9dA1kngfYZyv0RhC1nt0fm6xJCTt8KPucPTTgXgGWzLaCB/AYu9uxH7A==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
-      '@aws-sdk/client-dynamodb': ^3.699.0
+      '@aws-sdk/client-dynamodb': ^3.705.0
 
   '@aws-sdk/util-endpoints@3.696.0':
     resolution: {integrity: sha512-T5s0IlBVX+gkb9g/I6CLt4yAZVzMSiGnbUqWihWsHvQR1WOoIcndQy/Oz/IJXT9T2ipoy7a80gzV6a5mglrioA==}
@@ -833,7 +833,7 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
 
-  '@aws-sdk/client-dynamodb@3.699.0':
+  '@aws-sdk/client-dynamodb@3.705.0':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
@@ -1188,9 +1188,9 @@ snapshots:
       '@smithy/types': 3.7.1
       tslib: 2.8.1
 
-  '@aws-sdk/util-dynamodb@3.704.0(@aws-sdk/client-dynamodb@3.699.0)':
+  '@aws-sdk/util-dynamodb@3.705.0(@aws-sdk/client-dynamodb@3.705.0)':
     dependencies:
-      '@aws-sdk/client-dynamodb': 3.699.0
+      '@aws-sdk/client-dynamodb': 3.705.0
       tslib: 2.8.1
 
   '@aws-sdk/util-endpoints@3.696.0':
