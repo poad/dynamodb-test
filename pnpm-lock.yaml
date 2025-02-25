@@ -22,7 +22,7 @@ importers:
         specifier: ^5.7.3
         version: 5.7.3
       vitest:
-        specifier: ^3.0.6
+        specifier: ^3.0.7
         version: 3.0.7(@types/node@22.13.5)
 
 packages:
