@@ -9,20 +9,20 @@ importers:
   .:
     dependencies:
       '@aws-sdk/client-dynamodb':
-        specifier: ^3.777.0
+        specifier: ^3.782.0
         version: 3.782.0
       '@aws-sdk/util-dynamodb':
-        specifier: ^3.777.0
+        specifier: ^3.782.0
         version: 3.782.0(@aws-sdk/client-dynamodb@3.782.0)
     devDependencies:
       '@types/node':
-        specifier: ^22.13.14
+        specifier: ^22.14.0
         version: 22.14.0
       typescript:
-        specifier: ^5.8.2
+        specifier: ^5.8.3
         version: 5.8.3
       vitest:
-        specifier: ^3.0.9
+        specifier: ^3.1.1
         version: 3.1.1(@types/node@22.14.0)
 
 packages:
