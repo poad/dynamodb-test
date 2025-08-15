@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@aws-sdk/client-dynamodb':
         specifier: ^3.859.0
-        version: 3.864.0
+        version: 3.868.0
       '@aws-sdk/util-dynamodb':
         specifier: ^3.859.0
-        version: 3.864.0(@aws-sdk/client-dynamodb@3.864.0)
+        version: 3.868.0(@aws-sdk/client-dynamodb@3.868.0)
     devDependencies:
       '@types/node':
         specifier: ^24.2.0
@@ -40,8 +40,8 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-sdk/client-dynamodb@3.864.0':
-    resolution: {integrity: sha512-Z+8qCU8A8RKI/vaMZx3bUG3ZIvEBZzYRIEZA06Qx0QHttkDV/i2Q31Bs98Za/UV0aMXJYsgpHCvXeRgR7r8hYA==}
+  '@aws-sdk/client-dynamodb@3.868.0':
+    resolution: {integrity: sha512-a2uKLRplH3vTHgTHr+MaZ1YH0Sy0yVHK9rhM/drktxgXehMf4p7dZtt783c9SEupZvo46LxXryvwifoUdL4nRg==}
     engines: {node: '>=18.0.0'}
 
   '@aws-sdk/client-sso@3.864.0':
@@ -120,11 +120,11 @@ packages:
     resolution: {integrity: sha512-Bei+RL0cDxxV+lW2UezLbCYYNeJm6Nzee0TpW0FfyTRBhH9C1XQh4+x+IClriXvgBnRquTMMYsmJfvx8iyLKrg==}
     engines: {node: '>=18.0.0'}
 
-  '@aws-sdk/util-dynamodb@3.864.0':
-    resolution: {integrity: sha512-u1uYG/1KTXM5R+mzqKcJRsOVBEuRNGwj/rDoINAMx+vImF8TPZtaFR/PuoZqrDKsXMk9Xd3rADYCgdDjJM8+nQ==}
+  '@aws-sdk/util-dynamodb@3.868.0':
+    resolution: {integrity: sha512-Y+SBOBtAcLdRbBv8T2WtVOVYvTHxH23M0Ssm9WPQgJXiYtBDHvB4i1pgw/ECu/F4KRHKrkxzn4lwrF2XlryldA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
-      '@aws-sdk/client-dynamodb': ^3.864.0
+      '@aws-sdk/client-dynamodb': ^3.868.0
 
   '@aws-sdk/util-endpoints@3.862.0':
     resolution: {integrity: sha512-eCZuScdE9MWWkHGM2BJxm726MCmWk/dlHjOKvkM0sN1zxBellBMw5JohNss1Z8/TUmnW2gb9XHTOiHuGjOdksA==}
@@ -676,8 +676,9 @@ packages:
     resolution: {integrity: sha512-pfX9uG9Ki0yekDHx2SiuRIyFdyAr1kMIMitPvb0YBo8SUfKvia7w7FIyd/l6av85pFYRhZscS75MwMnbvY+hcQ==}
     hasBin: true
 
-  fdir@6.4.6:
-    resolution: {integrity: sha512-hiFoqpyZcfNm1yc4u8oWCf9A2c4D3QjCrks3zmoVKVxpQRzmPNar1hUJcBG2RQHvEVGDN+Jm81ZheVLAQMK6+w==}
+  fdir@6.5.0:
+    resolution: {integrity: sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==}
+    engines: {node: '>=12.0.0'}
     peerDependencies:
       picomatch: ^3 || ^4
     peerDependenciesMeta:
@@ -897,7 +898,7 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
 
-  '@aws-sdk/client-dynamodb@3.864.0':
+  '@aws-sdk/client-dynamodb@3.868.0':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
@@ -1208,9 +1209,9 @@ snapshots:
       '@smithy/types': 4.3.2
       tslib: 2.8.1
 
-  '@aws-sdk/util-dynamodb@3.864.0(@aws-sdk/client-dynamodb@3.864.0)':
+  '@aws-sdk/util-dynamodb@3.868.0(@aws-sdk/client-dynamodb@3.868.0)':
     dependencies:
-      '@aws-sdk/client-dynamodb': 3.864.0
+      '@aws-sdk/client-dynamodb': 3.868.0
       tslib: 2.8.1
 
   '@aws-sdk/util-endpoints@3.862.0':
@@ -1782,7 +1783,7 @@ snapshots:
     dependencies:
       strnum: 2.1.1
 
-  fdir@6.4.6(picomatch@4.0.3):
+  fdir@6.5.0(picomatch@4.0.3):
     optionalDependencies:
       picomatch: 4.0.3
 
@@ -1867,7 +1868,7 @@ snapshots:
 
   tinyglobby@0.2.14:
     dependencies:
-      fdir: 6.4.6(picomatch@4.0.3)
+      fdir: 6.5.0(picomatch@4.0.3)
       picomatch: 4.0.3
 
   tinypool@1.1.1: {}
@@ -1908,7 +1909,7 @@ snapshots:
   vite@7.1.2(@types/node@24.2.1):
     dependencies:
       esbuild: 0.25.9
-      fdir: 6.4.6(picomatch@4.0.3)
+      fdir: 6.5.0(picomatch@4.0.3)
       picomatch: 4.0.3
       postcss: 8.5.6
       rollup: 4.46.2
