@@ -9,10 +9,10 @@ importers:
   .:
     dependencies:
       '@aws-sdk/client-dynamodb':
-        specifier: ^3.873.0
+        specifier: ^3.876.0
         version: 3.876.0
       '@aws-sdk/util-dynamodb':
-        specifier: ^3.873.0
+        specifier: ^3.876.0
         version: 3.876.0(@aws-sdk/client-dynamodb@3.876.0)
     devDependencies:
       '@types/node':
