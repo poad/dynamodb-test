@@ -12,11 +12,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.969.0",
-    "@aws-sdk/util-dynamodb": "^3.969.0"
+    "@aws-sdk/client-dynamodb": "^3.971.0",
+    "@aws-sdk/util-dynamodb": "^3.971.0"
   },
   "devDependencies": {
-    "@types/node": "^25.0.8",
+    "@types/node": "^25.0.9",
     "typescript": "^5.9.3",
     "vitest": "^4.0.17"
   },
