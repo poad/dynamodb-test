@@ -4,19 +4,22 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  fast-xml-parser@>=4.3.6 <=5.3.3: '>=5.3.4'
+
 importers:
 
   .:
     dependencies:
       '@aws-sdk/client-dynamodb':
-        specifier: ^3.985.0
+        specifier: ^3.988.0
         version: 3.988.0
       '@aws-sdk/util-dynamodb':
-        specifier: ^3.985.0
+        specifier: ^3.988.0
         version: 3.988.0(@aws-sdk/client-dynamodb@3.988.0)
     devDependencies:
       '@types/node':
-        specifier: ^25.2.2
+        specifier: ^25.2.3
         version: 25.2.3
       typescript:
         specifier: ^5.9.3
