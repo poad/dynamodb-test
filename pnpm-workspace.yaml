@@ -5,9 +5,11 @@ allowBuilds:
   esbuild: false
 
 minimumReleaseAge: 10080 # 7 days in minutes
+minimumReleaseAgeExclude:
+  - pnpm@11.20.0
 
 overrides:
-  eslint-import-resolver-typescript: '>=4'
+  eslint-import-resolver-typescript: '^4.4.5'
   semver: '>=7'
 
 trustPolicy: no-downgrade
