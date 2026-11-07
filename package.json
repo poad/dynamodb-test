@@ -12,24 +12,24 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.1096.0",
-    "@aws-sdk/util-dynamodb": "^3.996.7"
+    "@aws-sdk/client-dynamodb": "^3.1161.0",
+    "@aws-sdk/util-dynamodb": "^3.996.9"
   },
   "devDependencies": {
-    "@types/node": "^25.9.5",
-    "typescript": "^6.0.3",
-    "vite": "^8.1.5",
-    "vitest": "^4.1.10"
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
   },
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": "^24.19.0",
+      "version": "^26.13.0",
       "onFail": "download"
     },
     "packageManager": {
       "name": "pnpm",
-      "version": "^11.20.0",
+      "version": "12.18.0",
       "onFail": "download"
     }
   }
